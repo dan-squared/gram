@@ -1,6 +1,6 @@
-# Gramp - AI-Powered Voice Assistant
+# Gram - AI-Powered Voice Assistant
 
-Gramp is an advanced voice assistant that understands human emotions and detects voice patterns using **Hume AI**. Unlike traditional assistants, Gramp goes beyond recognizing words—it interprets emotions, making interactions more natural and intuitive.
+Gram is an advanced voice assistant that understands human emotions and detects voice patterns using **Hume AI**. Unlike traditional assistants, Gram goes beyond recognizing words—it interprets emotions, making interactions more natural and intuitive.
 
 ## About Hume AI
 Hume AI is an advanced AI platform that specializes in emotion recognition. It uses deep learning models to analyze vocal and facial expressions, enabling AI to understand human emotions and voice patterns with high accuracy.
@@ -16,7 +16,7 @@ Hume AI is an advanced AI platform that specializes in emotion recognition. It u
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/Gramp.git
-   cd Gramp
+   cd Gram
    ```
 
 2. Install dependencies:
