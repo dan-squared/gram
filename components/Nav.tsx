@@ -33,25 +33,17 @@ export const Nav = () => {
       }
     >
       <div>
-        <HumeLogo className={"h-5 w-auto"} />
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22" fill="none">
+  <rect y="5.45459" width="3.33333" height="9.09091" rx="1.66667" fill="currentColor"/>
+  <rect x="26.6666" y="5.45459" width="3.33333" height="9.09091" rx="1.66667" fill="currentColor"/>
+  <rect x="6.66675" y="3.63635" width="3.33333" height="12.7273" rx="1.66667" fill="currentColor"/>
+  <rect x="20" y="3.63635" width="3.33333" height="14.5455" rx="1.66667" fill="currentColor"/>
+  <rect x="13.3334" width="3.33333" height="21.8182" rx="1.66667" fill="currentColor"/>
+</svg>
+
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
-        <Button
-          onClick={() => {
-            window.open(
-              pkg.homepage,
-              "_blank",
-              "noopener noreferrer"
-            );
-          }}
-          variant={"ghost"}
-          className={"ml-auto flex items-center gap-1.5"}
-        >
-          <span>
-            <Github className={"size-4"} />
-          </span>
-          <span>Star on GitHub</span>
-        </Button>
+        
         <Button
           onClick={toggleDark}
           variant={"ghost"}
