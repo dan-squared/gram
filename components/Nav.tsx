@@ -1,7 +1,6 @@
 "use client";
 
 import { useLayoutEffect, useState } from "react";
-import HumeLogo from "./logos/Hume";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import Github from "./logos/GitHub";
